@@ -1,4 +1,6 @@
-// Global app controller
-import x from "./test";
+import Search from "./models/Search";
 
-console.log(`Im imported ${x} from anthor module`);
+const state = {};
+const search = new Search("pizza");
+// console.log(search);
+search.getResults();
