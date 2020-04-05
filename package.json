@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "- Build from the this course: https://www.udemy.com/course/the-complete-javascript-course/ <--- \"Thanks very much.\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaElGamal/Forkify.git"
+  },
+  "author": "Mustafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostafaElGamal/Forkify/issues"
+  },
+  "homepage": "https://github.com/MostafaElGamal/Forkify#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

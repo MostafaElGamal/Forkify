@@ -1,4 +1,4 @@
-# PIG-GAME
+# Forkify
 
 - Build from the this course: https://www.udemy.com/course/the-complete-javascript-course/ <--- "Thanks very much."
 
